@@ -24,7 +24,7 @@
 
         ?>
 
-        <div style="display:inline-block;width:146px;height:197px;background:url('/cards.png');background-position: -<?php echo ($card_value * 146) ?>px -<?php echo ($card_color * 197) ?>px;">
+        <div style="display:inline-block;width:146px;height:197px;background:url('http://<?php echo $url?>/cards.png');background-position: -<?php echo ($card_value * 146) ?>px -<?php echo ($card_color * 197) ?>px;">
             
         </div>
     <?php endforeach; ?>

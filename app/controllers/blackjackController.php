@@ -71,6 +71,7 @@ class blackjackController
 
         $cards_on_table = new view('blackjack/cards_on_table');
         $cards_on_table->cards = $game->player_cards;
+        $cards_on_table->url = config::get('app.url');
 
         $play_actions =  new view('blackjack/play_actions');
         $play_actions->game_id = $game_id;
